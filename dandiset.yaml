@@ -37,3 +37,5 @@ description: Motor behaviors are central to many functions and dysfunctions of t
   and contributes to our understanding of long-term naturalistic behavior.
 identifier: '000055'
 name: Behavioral and Neural Variability of Naturalistic Arm Movements
+publications:
+- url: https://www.biorxiv.org/content/10.1101/2020.04.17.047357v2
