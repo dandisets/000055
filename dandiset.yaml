@@ -3,22 +3,22 @@
 # and obtained from the dandiarchive.
 contributors:
 - name: Steven M. Peterson
-  orcid: http://orcid.org/0000-0003-0782-5788
+  orcid: 0000-0003-0782-5788
   roles:
   - Author
 - name: Satpreet H. Singh
-  orcid: http://orcid.org/0000-0003-1867-4401
+  orcid: 0000-0003-1867-4401
   roles:
   - Author
 - name: Nancy X. R. Wang
   roles:
   - Author
 - name: Rajesh P. N. Rao
-  orcid: http://orcid.org/0000-0003-0682-8952
+  orcid: 0000-0003-0682-8952
   roles:
   - Author
 - name: Bingni W. Brunton
-  orcid: http://orcid.org/0000-0002-4831-3466
+  orcid: 0000-0002-4831-3466
   roles:
   - Author
 description: Motor behaviors are central to many functions and dysfunctions of the
