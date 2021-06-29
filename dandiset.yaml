@@ -5,7 +5,7 @@
 about: []
 access:
 - contactPoint:
-    email: stepeter@uw.edu
+    email: bbrunton@uw.edu
     schemaKey: ContactPoint
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
