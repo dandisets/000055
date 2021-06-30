@@ -111,9 +111,14 @@ manifestLocation: []
 name: Behavioral and Neural Variability of Naturalistic Arm Movements
 protocol: []
 relatedResource:
-- relation: dcite:IsDescribedBy
+- name: Behavioral and Neural Variability of Naturalistic Arm Movements
+  relation: dcite:IsDescribedBy
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2020.04.17.047357v2
+  url: https://doi.org/10.1523/ENEURO.0007-21.2021
+- name: Mining naturalistic human behaviors in long-term video and neural recordings
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.jneumeth.2021.109199
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
