@@ -26,6 +26,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   numberOfBytes: 845869698341
   numberOfFiles: 55
   numberOfSubjects: 12
@@ -38,6 +40,7 @@ assetsSummary:
   - Position
   - ProcessingModule
   - ElectricalSeries
+  - ElectrodeGroup
 citation: Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Michael;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2021) Behavioral and Neural Variability of
   Naturalistic Arm Movements (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000055/draft
