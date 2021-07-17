@@ -41,9 +41,10 @@ assetsSummary:
   - ProcessingModule
   - ElectricalSeries
   - ElectrodeGroup
-citation: Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Michael;
-  Rao, Rajesh P. N.; Brunton, Bingni W. (2021) Behavioral and Neural Variability of
-  Naturalistic Arm Movements (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000055/draft
+citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Michael;
+  Rao, Rajesh P. N.; Brunton, Bingni W. (2021) AJILE12: Long-term naturalistic human
+  intracranial neural recordings and pose (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000055/draft'
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -103,20 +104,23 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-description: Motor behaviors are central to many functions and dysfunctions of the
-  brain, and understanding their neural basis has consequently been a major focus
-  in neuroscience. However, most studies of motor behaviors have been restricted to
-  artificial, repetitive paradigms, far removed from natural movements performed “in
-  the wild.” Here, we leveraged recent advances in machine learning and computer vision
-  to analyze intracranial recordings from 12 human subjects during thousands of spontaneous,
-  unstructured arm reach movements, observed over several days for each subject. These
-  naturalistic movements elicited cortical spectral power patterns consistent with
-  findings from controlled paradigms, but with considerable neural variability across
-  subjects and events. We modeled inter-event variability using ten behavioral and
-  environmental features; the most important features explaining this variability
-  were reach angle and day of recording. Our work is among the first studies connecting
-  behavioral and neural variability across cortex in humans during unstructured movements
-  and contributes to our understanding of long-term naturalistic behavior.
+description: Understanding the neural basis of human movement in naturalistic scenarios
+  is critical for expanding neuroscience research beyond constrained laboratory paradigms.
+  The neural correlates of unstructured, spontaneous movements in completely naturalistic
+  settings have rarely been studied, due in large part to a lack of available data.
+  Here, we present our Annotated Joints in Long-term Electrocorticography for 12 human
+  participants (AJILE12) dataset, the largest human neurobehavioral dataset that is
+  publicly available; the dataset was recorded opportunistically during passive clinical
+  epilepsy monitoring. AJILE12 includes synchronized intracranial neural recordings
+  and upper body pose trajectories across 55 semi-continuous days of naturalistic
+  movements, along with relevant metadata, including thousands of wrist movement events
+  and annotated behavioral states. Neural recordings are available at 500 Hz from
+  at least 64 electrodes per participant, for a total of 1280 hours. Pose trajectories
+  at 9 upper-body keypoints, including wrist, elbow, and shoulder joints, were sampled
+  at 30 frames per second and estimated from 118 million video frames. In adherence
+  with the FAIR data principles, we have shared AJILE12 on The Dandi Archive in the
+  Neurodata Without Borders (NWB) data standard and developed a browser-based dashboard
+  to facilitate data exploration and reuse.
 ethicsApproval: []
 id: DANDI:000055/draft
 identifier: DANDI:000055
@@ -124,7 +128,7 @@ keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation: []
-name: Behavioral and Neural Variability of Naturalistic Arm Movements
+name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and pose'
 protocol: []
 relatedResource:
 - name: Behavioral and Neural Variability of Naturalistic Arm Movements
