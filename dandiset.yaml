@@ -103,6 +103,7 @@ contributor:
   name: Brunton, Bingni W.
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 description: Understanding the neural basis of human movement in naturalistic scenarios
   is critical for expanding neuroscience research beyond constrained laboratory paradigms.
@@ -121,13 +122,19 @@ description: Understanding the neural basis of human movement in naturalistic sc
   with the FAIR data principles, we have shared AJILE12 on The Dandi Archive in the
   Neurodata Without Borders (NWB) data standard and developed a browser-based dashboard
   to facilitate data exploration and reuse.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+    url: https://www.washington.edu/research/hsd/
+  identifier: STUDY00000623
+  schemaKey: EthicsApproval
 id: DANDI:000055/draft
 identifier: DANDI:000055
 keywords: []
 license:
 - spdx:CC-BY-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000055/versions/draft/assets/
 name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and pose'
 protocol: []
 relatedResource:
