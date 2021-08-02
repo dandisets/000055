@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000055
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
-about: []
+about:
+- identifier: UBERON:0001384
+  name: primary motor cortex
+  schemaKey: Anatomy
 access:
 - contactPoint:
     email: bbrunton@uw.edu
