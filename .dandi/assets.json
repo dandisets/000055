@@ -2241,7 +2241,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"ca86a7461db39bd5ee43f6fb366ee62f-194"
+"ca86a7461db39bd5ee43f6fb366ee62f-194",
+"dandi:sha2-256":
+"bc26479b8e40bf28f078c17cbcf5955cdc6f2a447030076c53bfd3cc9c1d3e5e"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -2357,7 +2359,7 @@
 ]
 },
 "modified":
-"2021-08-05T18:43:18.289105+00:00",
+"2021-08-10T06:20:56.959381+00:00",
 "path":
 "sub-04/sub-04_ses-6_behavior+ecephys.nwb",
 "size":
@@ -2408,7 +2410,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"ae375d42cccd115dcfe8f9f68ecfb35d-191"
+"ae375d42cccd115dcfe8f9f68ecfb35d-191",
+"dandi:sha2-256":
+"93e1033ab85fb48f8d17feeceeee4e7c7a655024c39133081df98c0c0ccc7094"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -2524,7 +2528,7 @@
 ]
 },
 "modified":
-"2021-08-05T18:43:18.344683+00:00",
+"2021-08-10T06:20:57.986086+00:00",
 "path":
 "sub-03/sub-03_ses-6_behavior+ecephys.nwb",
 "size":
@@ -3251,7 +3255,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"3fe7bf35d0ff33d043073a23645a9c34-256"
+"3fe7bf35d0ff33d043073a23645a9c34-256",
+"dandi:sha2-256":
+"056ee3ce118a30b1db7f9486d7fe1d7bb15107c0d974d94524b3cea8e47196c6"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -3367,7 +3373,7 @@
 ]
 },
 "modified":
-"2021-08-05T18:43:18.527646+00:00",
+"2021-08-10T06:21:03.092147+00:00",
 "path":
 "sub-05/sub-05_ses-3_behavior+ecephys.nwb",
 "size":
