@@ -44,7 +44,7 @@ assetsSummary:
   - ProcessingModule
   - ElectricalSeries
   - ElectrodeGroup
-citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Michael;
+citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2022) AJILE12: Long-term naturalistic human
   intracranial neural recordings and pose (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000055/draft'
@@ -82,9 +82,8 @@ contributor:
   - name: CatalystNeuro
     schemaKey: Affiliation
   includeInCitation: true
-  name: Scheid, Michael
-  roleName:
-  - dcite:Author
+  name: Scheid, Micheal
+  roleName: []
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -142,14 +141,22 @@ manifestLocation:
 name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and pose'
 protocol: []
 relatedResource:
-- name: Behavioral and Neural Variability of Naturalistic Arm Movements
+- identifier: DOI:10.1523/ENEURO.0007-21.2021
+  name: Behavioral and Neural Variability of Naturalistic Arm Movements
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://doi.org/10.1523/ENEURO.0007-21.2021
-- name: Mining naturalistic human behaviors in long-term video and neural recordings
+- identifier: DOI:10.1016/j.jneumeth.2021.109199
+  name: Mining naturalistic human behaviors in long-term video and neural recordings
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://doi.org/10.1016/j.jneumeth.2021.109199
+- identifier: 'DOI: 10.1101/2021.07.26.453884'
+  name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and
+    pose'
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2021.07.26.453884
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
