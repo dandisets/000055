@@ -46,8 +46,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2022) AJILE12: Long-term naturalistic human
-  intracranial neural recordings and pose (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000055/draft'
+  intracranial neural recordings and pose (Version 0.220127.0436) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000055/0.220127.0436'
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -108,6 +108,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2021-01-08T22:39:31.075000+00:00'
+datePublished: '2022-01-27T04:36:51.269746+00:00'
 description: Understanding the neural basis of human movement in naturalistic scenarios
   is critical for expanding neuroscience research beyond constrained laboratory paradigms.
   The neural correlates of unstructured, spontaneous movements in completely naturalistic
@@ -125,21 +126,34 @@ description: Understanding the neural basis of human movement in naturalistic sc
   with the FAIR data principles, we have shared AJILE12 on The Dandi Archive in the
   Neurodata Without Borders (NWB) data standard and developed a browser-based dashboard
   to facilitate data exploration and reuse.
+doi: 10.48324/dandi.000055/0.220127.0436
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
     url: https://www.washington.edu/research/hsd/
   identifier: STUDY00000623
   schemaKey: EthicsApproval
-id: DANDI:000055/draft
+id: DANDI:000055/0.220127.0436
 identifier: DANDI:000055
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000055/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000055/0.220127.0436/assets.yaml
 name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and pose'
 protocol: []
+publishedBy:
+  endDate: '2022-01-27T04:36:51.269746+00:00'
+  id: urn:uuid:b95a8058-1b16-4a46-804f-8e547af2f5d7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-01-27T04:36:51.269746+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:40836676-0292-465d-b014-b4e257f9cb70
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: DOI:10.1523/ENEURO.0007-21.2021
   name: Behavioral and Neural Variability of Naturalistic Arm Movements
@@ -161,6 +175,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000055/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000055/0.220127.0436
+version: 0.220127.0436
 wasGeneratedBy: []
