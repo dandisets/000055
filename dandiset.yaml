@@ -35,8 +35,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 826975767319
-  numberOfFiles: 53
+  numberOfBytes: 831931056752
+  numberOfFiles: 54
   numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
@@ -50,8 +50,8 @@ assetsSummary:
   - Position
   - ProcessingModule
   - ElectricalSeries
-  - ElectrodeGroup
   - SpatialSeries
+  - ElectrodeGroup
 citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2026) AJILE12: Long-term naturalistic human
   intracranial neural recordings and pose (Version draft) [Data set]. DANDI Archive.
