@@ -35,19 +35,23 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 845869698341
-  numberOfFiles: 55
+  numberOfBytes: 826975767319
+  numberOfFiles: 53
   numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
     name: Human
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
   variableMeasured:
   - Position
   - ProcessingModule
   - ElectricalSeries
   - ElectrodeGroup
+  - SpatialSeries
 citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2026) AJILE12: Long-term naturalistic human
   intracranial neural recordings and pose (Version draft) [Data set]. DANDI Archive.
