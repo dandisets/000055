@@ -18,40 +18,37 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 826191733754
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 825900941386
   numberOfFiles: 54
   numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Human
-    schemaKey: SpeciesType
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
-  - Position
-  - ProcessingModule
-  - ElectricalSeries
   - SpatialSeries
+  - ElectricalSeries
   - ElectrodeGroup
+  - ProcessingModule
+  - Position
 citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2026) AJILE12: Long-term naturalistic human
   intracranial neural recordings and pose (Version draft) [Data set]. DANDI Archive.
