@@ -51,8 +51,8 @@ assetsSummary:
   - Position
 citation: 'Peterson, Steven M.; Singh, Satpreet H.; Dichter, Benjamin; Scheid, Micheal;
   Rao, Rajesh P. N.; Brunton, Bingni W. (2026) AJILE12: Long-term naturalistic human
-  intracranial neural recordings and pose (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/000055/draft'
+  intracranial neural recordings and pose (Version 0.261123.1703) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.000055/0.261123.1703'
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -144,6 +144,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-01-08T22:39:31.075000+00:00'
+datePublished: '2026-11-23T17:03:21.021125+00:00'
 description: Understanding the neural basis of human movement in naturalistic scenarios
   is critical for expanding neuroscience research beyond constrained laboratory paradigms.
   The neural correlates of unstructured, spontaneous movements in completely naturalistic
@@ -161,13 +162,14 @@ description: Understanding the neural basis of human movement in naturalistic sc
   with the FAIR data principles, we have shared AJILE12 on The Dandi Archive in the
   Neurodata Without Borders (NWB) data standard and developed a browser-based dashboard
   to facilitate data exploration and reuse.
+doi: 10.48324/dandi.000055/0.261123.1703
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
     url: https://www.washington.edu/research/hsd/
   identifier: STUDY00000623
   schemaKey: EthicsApproval
-id: DANDI:000055/draft
+id: DANDI:000055/0.261123.1703
 identifier: DANDI:000055
 keywords:
 - ECoG
@@ -178,9 +180,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000055/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000055/0.261123.1703/assets.yaml
 name: 'AJILE12: Long-term naturalistic human intracranial neural recordings and pose'
 protocol: []
+publishedBy:
+  endDate: '2026-11-23T17:03:21.021125+00:00'
+  id: urn:uuid:a1ed8289-0665-4b6d-ba86-b41e1c163dca
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-23T17:03:21.021125+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:63b28eaf-9eff-4c26-ac01-1f2a7a8765f5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: DOI:10.1523/ENEURO.0007-21.2021
   name: Behavioral and Neural Variability of Naturalistic Arm Movements
@@ -204,10 +218,35 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/s41597-022-01280-y
+releaseNotes: "## Changes since version 0.220127.0436\n\nAll 55 files were corrected
+  in place with the fixes in [catalystneuro/brunton-lab-to-nwb PR #14](https://github.com/catalystneuro/brunton-lab-to-nwb/pull/14).
+  File names, ECoG, pose data and tables are kept.\n\n**Corrections**\n\n- **One clock
+  per file.** Every time in a file now counts from midnight of the recording day.
+  In `sub-04_ses-3`, `sub-06_ses-3` and `sub-01_ses-7`, the `starting_time` of the
+  ECoG (and of `EOGL`, `EOGR`, `ECGL` and `ECGR` in `sub-01_ses-7`) is now the first
+  sample after midnight: 30048.322 s, 29240.566 s and 30682.414 s. Their `ReachEvents`
+  timestamps are shifted by the same amounts.\n- **Session start time.** `session_start_time`
+  and `timestamps_reference_time` are midnight of the recording day with a +00:00
+  offset, for example `2000-01-03T00:00:00+00:00`. Recording day N is January N, 2000.\n
+  - **Session description.** It states that times are the hospital's wall-clock times,
+  that dates were removed and shifted to January 2000, and that the offset from UTC
+  is unknown.\n- **Subject age and sex.** Each subject has its age and sex from Table
+  2 of the AJILE12 paper ([10.1038/s41597-022-01280-y](https://doi.org/10.1038/s41597-022-01280-y)).\n
+  - **Electrode filtering.** The `filtering` column is now the lowpass cutoff in Hz
+  (250.0), as the file's NWB schema requires.\n- The files now pass `dandi validate`
+  with no errors.\n\n**Known gaps**\n\n- The offset of the hospital's clock from UTC
+  is not known.\n- In `sub-08_ses-4`, the last reach in the `reaches` table starts
+  at 86440.332 s, after the end of the day's ECoG and pose. Its entry in `ReachEvents`
+  is 40.332 s.\n- The `ECGL` and `ECGR` series in the four sub-01 files with EOG and
+  ECG are described as electrooculography.\n- Electrode 0 is marked bad (`good` is
+  False) in every file. The counts of good electrodes match Table 2 of the AJILE12
+  paper, so the flags are kept as the lab gave them.\n- Pose positions are image pixels,
+  but are labelled meters with a conversion of NaN.\n- `Bimanual_overlap` is described
+  as a fraction, but holds seconds."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000055/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000055/0.261123.1703
+version: 0.261123.1703
 wasGeneratedBy: []
